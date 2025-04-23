@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>MI LISTA DE TAREAS</h1>
+
+        <input type="text" id="nueva-tarea" placeholder="Escribe una nueva tarea">
+
+        <select id="categoria">
+            <option value="Hogar">Hogar</option>
+            <option value="Colegio">Colegio</option>
+            <option value="Deporte">Deporte</option>
+            <option value="Personal">Personal</option>            
+        </select>
+
+        <button onclick="agregarTarea()">Agregar Tarea</button>
+        <ul id="lista-tareas">
+        </ul>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

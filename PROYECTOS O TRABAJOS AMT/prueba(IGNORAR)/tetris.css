@@ -1,0 +1,123 @@
+body {
+    /* IMAGEN DE FONDO*/
+        background-color: black;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+    }
+    /*CABECERA*/
+    header {
+        text-align: center;
+        padding-right: 35px;
+        font-size: 30px;
+        font-family: sans-serif bold;
+        display: block;
+    /*
+        border: solid 3px;
+        margin: 5px;
+        margin-left: 500px;
+        margin-right: 500px;
+        padding: 5px;
+    */
+    }
+    /*CONTENIDO INTERACTIVO*/
+    #contenido {
+    }
+    /*PANEL IZQUIERDO*/
+    #izquierda {
+        text-align: right;
+        width: 440px;
+        height: 600px;
+        float: left;
+        margin: 5px;
+        padding: 5px;
+    }
+    /*SIGUIENTE PIEZA*/
+    #siguientePieza{
+        background-color: blue;
+        float: right;
+        padding: inherit;
+        border-right: 20px;
+        height: 210px;
+        width: 200px;
+        text-align: center;
+    }
+    /*NEXT SHAPE CANVAS*/
+    #nextShape {
+        background-color: lightsteelblue;
+        align-items: center;
+        float: right;
+        padding-top: 15px;
+        margin-right: 14px;
+    }
+    /*COMO JUGAR*/
+    #comoJugar {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: left;
+    /*    clear: both;*/
+    /*    position: relative;*/
+    }
+    /*INSTRUCCIONES*/
+    #instrucciones {
+        float: left;
+        font-size: 35px;
+        font-family: serif;
+        text-align: center;
+    }
+    #recomendacion {
+        border: 2px solid red;
+        text-align: center;
+        padding: 2px;
+    }
+    /*TABLERO DE JUEGO*/
+    #tablero {
+        background-color: whitesmoke;
+        position: absolute;
+        left: 37%;
+        width: 300px;
+        height: 600px;
+        border: 3px solid black;
+        font-family: Tetris;
+    }
+    /*PANEL DERECHO*/
+    #contenido #derecha {
+        width: 400px;
+        height: 550px;
+        float: right;
+        margin: 5px;
+        padding: 5px;
+    }
+    span {
+        float: right;
+        padding-right: 50px;
+    }
+    /*PAUSA*/
+    #pausa {
+        background-color: red;
+        text-align: center;
+        font-size: 30px;
+        font-family: Tetris;
+        color: white;
+        margin-top: 1px;
+        margin-bottom: 3px;
+    }
+    #pie {
+        clear: both;
+        float: right;
+        text-align: center;
+    /*    padding: 3px;*/
+    }
+    
+    /*ESTILOS DE LETRA*/
+    h3 {
+        font-size: 25px;
+    }
+    /*
+    @font-face {
+        font-family: "Tetris";
+        src: url("tetris.ttf");
+    }*/
+    

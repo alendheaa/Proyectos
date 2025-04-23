@@ -1,0 +1,59 @@
+body {
+    background-color: #ebf1fb;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    background-color: #7780af;
+    align-items: center;
+    padding: 10px;
+}
+
+.encabezado h1 {
+    color: white;
+    font-size: 50px;  
+}
+
+.portada {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.parte1 h1 {
+    font-size: 50px;
+    color: #5d509c;
+}
+
+.parte1 h2 {
+    font-size: 35px;
+    color: #9fb1df;
+}
+
+/* Nuevos estilos para los botones */
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el contenedor de información */
+#info {
+    margin-top: 20px; /* Espacio superior */
+    padding: 10px; /* Espacio interno */
+    background-color: #f9f9f9; /* Color de fondo del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+}
