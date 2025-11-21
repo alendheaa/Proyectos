@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color:#96BF9D ; /* color que vos elegís */
+    padding: 20px;
+    text-align: center;
+    color: ; /* texto */
+}
+
+/* Contenido */
+.contenedor {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:#FAE9D4 ; /* fondo */
+    border-radius: 10px;
+}
+
+/* Títulos */
+h2 {
+    margin-top: 30px;
+}
+
+/* Cuadros de ayuda */
+.cuadro-ayuda {
+    background-color: ;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid ;
+}
+
+.cuadro-ayuda button {
+    padding: 10px 20px;
+    background-color: ;
+    color: ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* FAQ */
+.faq {
+    background-color: ;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid ;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: ;
+    color: ;
+}
+
+  .logo img {
+    height: 120px;
+    width: 140PX;
+    cursor: pointer;
+  }
+
+  body{
+    background-color: #2B5136;
+  }
+
+    .logo img {
+    height: 120px;
+    width: 140PX;
+    cursor: pointer;
+  }
