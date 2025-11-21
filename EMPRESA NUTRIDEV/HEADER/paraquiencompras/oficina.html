@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styleparaquiencompras.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+                <div class="logo">
+                               <a href="inicio/index.html">
+                      <img src="logo.jpeg" alt="NutriDev Logo">
+                </div>
+
+           </a>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar productos...">
+            <button class="search-btn">🔍</button>
+        </div>
+    </header>
+
+    <!-- BARRA DE CATEGORÍAS -->
+    <nav class="categoria-bar">
+        <a href="deportistas.html">
+            <button>deportistas</button>
+        </a>
+        <a href="familia.html">
+            <button>familia</button>
+        </a>
+
+        <a href="oficina.html">
+            <button>bienestar</button>
+        </a>
+
+    </nav>
+
+    <!-- FILTROS Y ORDENAR -->
+    <section class="filtros">
+        <button id="filtrarBtn">Filtrar ⬇</button>
+
+        <div id="filtrosDesplegables" class="filtros-contenido">
+            <label><input type="checkbox"> Bajo en azúcar</label>
+            <label><input type="checkbox"> Sin gluten</label>
+            <label><input type="checkbox"> Vegano</label>
+            <label><input type="checkbox"> Sin almendras</label>
+            <label><input type="checkbox"> Alto en proteína</label>
+        </div>
+
+        <select id="ordenar">
+            <option value="">Ordenar por precio</option>
+            <option value="asc">Menor a mayor</option>
+            <option value="desc">Mayor a menor</option>
+        </select>
+    </section>
+
+    <!-- GRID DE PRODUCTOS -->
+    <section class="productos-grid">
+
+        <div class="producto">
+            <img src="IMG1.png" alt="">
+            <h3>Snack Pack Saludable 6 unidades</h3>
+            <p>$12.900</p>
+        </div>
+
+        <div class="producto">
+            <img src="IMG2.png" alt="">
+            <h3>Nueces Energéticas para Oficina 150g</h3>
+            <p>$9.500</p>
+        </div>
+
+        <div class="producto">
+            <img src="IMG3.png" alt="">
+            <h3>Bebida Refrescante Light 330ml</h3>
+            <p>$5.500</p>
+        </div>
+
+        <div class="producto">
+            <img src="IMG4.png" alt="">
+            <h3>Barritas Proteicas Mini 5 unidades</h3>
+            <p>$11.900</p>
+        </div>
+
+
+
+    </section>
+
+<script src="paraquiencompras.js"></script>
+</body>
+</html>
